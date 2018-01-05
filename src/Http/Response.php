@@ -10,7 +10,7 @@ use Dingo\Api\Event\ResponseIsMorphing;
 use Dingo\Api\Event\ResponseWasMorphed;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Http\Response as IlluminateResponse;
-use Illuminate\Events\Dispatcher as EventDispatcher;
+use October\Rain\Events\Dispatcher as EventDispatcher;
 use Dingo\Api\Transformer\Factory as TransformerFactory;
 use Illuminate\Database\Eloquent\Model as EloquentModel;
 use Illuminate\Database\Eloquent\Collection as EloquentCollection;
