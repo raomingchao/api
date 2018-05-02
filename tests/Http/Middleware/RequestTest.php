@@ -15,7 +15,7 @@ use Dingo\Api\Http\Validation\Prefix;
 use Dingo\Api\Tests\Stubs\ApplicationStub;
 use Dingo\Api\Http\Parser\Accept as AcceptParser;
 use Illuminate\Http\Request as IlluminateRequest;
-use Illuminate\Events\Dispatcher as EventDispatcher;
+use October\Rain\Events\Dispatcher as EventDispatcher;
 use Dingo\Api\Contract\Http\Request as RequestContract;
 use Dingo\Api\Http\Middleware\Request as RequestMiddleware;
 

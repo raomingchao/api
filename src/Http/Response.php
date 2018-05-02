@@ -10,7 +10,7 @@ use Dingo\Api\Event\ResponseIsMorphing;
 use Dingo\Api\Event\ResponseWasMorphed;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Http\Response as IlluminateResponse;
-use Illuminate\Events\Dispatcher as EventDispatcher;
+use October\Rain\Events\Dispatcher as EventDispatcher;
 use Dingo\Api\Transformer\Factory as TransformerFactory;
 use Illuminate\Database\Eloquent\Model as EloquentModel;
 use Illuminate\Database\Eloquent\Collection as EloquentCollection;
@@ -56,7 +56,7 @@ class Response extends IlluminateResponse
     /**
      * Event dispatcher instance.
      *
-     * @var \Illuminate\Events\Dispatcher
+     * @var \October\Rain\Events\Dispatcher
      */
     protected static $events;
 
@@ -207,7 +207,7 @@ class Response extends IlluminateResponse
     /**
      * Set the event dispatcher instance.
      *
-     * @param \Illuminate\Events\Dispatcher $events
+     * @param \October\Rain\Events\Dispatcher $events
      *
      * @return void
      */

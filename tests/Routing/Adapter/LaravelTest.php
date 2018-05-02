@@ -3,7 +3,7 @@
 namespace Dingo\Api\Tests\Routing\Adapter;
 
 use Illuminate\Routing\Router;
-use Illuminate\Events\Dispatcher;
+use October\Rain\Events\Dispatcher;
 use Illuminate\Container\Container;
 use Dingo\Api\Routing\Adapter\Laravel;
 

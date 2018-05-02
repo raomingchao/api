@@ -12,7 +12,7 @@ use Dingo\Api\Event\RequestWasMatched;
 use Dingo\Api\Http\Request as HttpRequest;
 use Illuminate\Contracts\Container\Container;
 use Dingo\Api\Contract\Debug\ExceptionHandler;
-use Illuminate\Events\Dispatcher as EventDispatcher;
+use October\Rain\Events\Dispatcher as EventDispatcher;
 use Dingo\Api\Contract\Http\Request as RequestContract;
 use Illuminate\Contracts\Debug\ExceptionHandler as LaravelExceptionHandler;
 
@@ -49,7 +49,7 @@ class Request
     /**
      * Event dispatcher instance.
      *
-     * @var \Illuminate\Events\Dispatcher
+     * @var \October\Rain\Events\Dispatcher
      */
     protected $events;
 
@@ -67,7 +67,7 @@ class Request
      * @param \Dingo\Api\Contract\Debug\ExceptionHandler   $exception
      * @param \Dingo\Api\Routing\Router                    $router
      * @param \Dingo\Api\Http\RequestValidator             $validator
-     * @param \Illuminate\Events\Dispatcher                $events
+     * @param \October\Rain\Events\Dispatcher                $events
      *
      * @return void
      */

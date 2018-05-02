@@ -11,7 +11,7 @@ use Illuminate\Container\Container;
 use Dingo\Api\Event\ResponseIsMorphing;
 use Dingo\Api\Event\ResponseWasMorphed;
 use Dingo\Api\Http\Response\Format\Json;
-use Illuminate\Events\Dispatcher as EventDispatcher;
+use October\Rain\Events\Dispatcher as EventDispatcher;
 
 class ResponseTest extends TestCase
 {
